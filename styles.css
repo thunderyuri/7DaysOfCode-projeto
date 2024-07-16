@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fonte-principal: "Inter";
+    --branco-cor: #FFFFFF;
+    --cinza-cor: #667085;
+    --vermelho-cor: #8E2424;
+    --preto-cor: #101828;
+}
+
+
+.navegacao {
+    font-family: var(--fonte-principal);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 32px;
+}
+
+.navegacao__conteudo {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 20em 0 0;
+}
+
+.navegacao__links a {
+    color: var(--cinza-cor);
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+    margin: 0 2em 0 0;
+    transition: 0.4s;
+}
+
+.navegacao__links a:hover {
+    color: var(--vermelho-cor);
+}
+
+
+
+
+.navegacao__acoes a {
+    text-decoration: none;
+}
+
+.acao__entrar {
+    padding: 10px 18px;
+    transition: 0.4s;
+}
+.acao__entrar:hover {
+    color: var(--vermelho-cor);
+}
+
+.acao__cadastrar {
+    color: var(--branco-cor);
+    background-color: var(--vermelho-cor);
+    border: 1px, solid, var(--vermelho-cor);
+    border-radius: 8px;
+    padding: 10px 18px;
+
+    transition: 0.4s;
+}
+.acao__cadastrar:hover {
+    background-color: transparent;
+    color: var(--vermelho-cor);
+    border-width: 3px;
+    padding: 8px 16px;
+    font-weight: 600;
+}
