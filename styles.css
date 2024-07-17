@@ -81,21 +81,55 @@
 
     display: flex;
     flex-direction: column;
-    margin: 96px 328px;
+    margin: 6em 20.50em;
+
+    transition: 1s;
 }
 
 .cabecalho__sessao {
     color: var(--vermelho-cor);
     font-weight: 600;
-    padding-bottom: 24px;
+    padding-bottom: 1.5em;
 }
 
 .cabecalho__titulo {
     color: var(--preto-cor);
-    font-size: 48px;
-    margin-bottom: 36px;
+    font-size: 3em;
+    margin-bottom: 0.5em;
 }
 
 .cabecalho__texto {
     color: var(--cinza-cor);
+}
+
+
+
+
+.metricas {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 0 5em 6em;
+    font-family: var(--fonte-principal);
+}
+
+.metricas__celula {
+    padding: 0 1em;
+}
+
+.metricas h1 {
+    color: var(--vermelho-cor);
+    font-size: 60px;
+    font-weight: 600;
+    padding-bottom: 12px;
+}
+
+.metricas span {
+    color: var(--preto-cor);
+    font-weight: 500;
+}
+
+.metricas p {
+    color: var(--cinza-cor);
+    font-size: 400;
+    padding-top: 8px;
 }
