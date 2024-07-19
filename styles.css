@@ -64,11 +64,11 @@
 
     transition: 0.4s;
 }
-.acao__cadastrar:hover {
+.acao__cadastrar:hover  {
     background-color: transparent;
     color: var(--vermelho-cor);
     border-width: 3px;
-    padding: 8px 16px;
+    padding: 7px 15px;
     font-weight: 600;
 }
 
@@ -132,4 +132,42 @@
     color: var(--cinza-cor);
     font-size: 400;
     padding-top: 8px;
+}
+
+
+.vagas {
+    padding: 112px;
+}
+.vagas img {
+    border-radius: 8px;
+    transition: 2s;
+}
+
+
+.talentos {
+    text-align: center;
+    font-family: var(--fonte-principal);
+}
+
+.talentos__badge {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px 12px;
+    color: var(--vermelho-cor);
+    background-color: #8E24240D;
+    border: 1px, solid, transparent;
+    border-radius: 16px;
+}
+
+.talentos__titulo {
+    font-size: 36px;
+    font-weight: 600;
+    padding: 16px 0 20px 0;
+}
+
+.talentos__texto {
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 64px;
+    color: var(--cinza-cor);
 }
