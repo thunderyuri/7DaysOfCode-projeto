@@ -171,3 +171,45 @@
     padding-bottom: 64px;
     color: var(--cinza-cor);
 }
+
+
+.trabalhos {
+    padding: 80px;
+    font-family: var(--fonte-principal);
+    transition: 3s;
+}
+
+.trabalhos__topico {
+    padding: 0 256px;
+}
+
+.trabalhos__titulo {
+    font-weight: 500;
+    font-size: 20px;
+    padding: 40px 0 32px 0;
+}
+
+.trabalhos__container {
+    border: 1px, solid, #EAECF0;
+    border-radius: 16px;
+    padding: 28px 24px;
+    margin-bottom: 24px;
+    
+}
+
+.trabalhos__container h6 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 56px;
+}
+
+.trabalhos__texto {
+    display: flex;
+    flex-direction: row;
+    color: var(--cinza-cor);
+    font-weight: 500;
+
+}
+.trabalhos__texto p {
+    padding: 0 24px 0 0;
+}
