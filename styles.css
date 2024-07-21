@@ -20,13 +20,11 @@
     align-items: center;
     padding: 15px 32px;
 }
-
 .navegacao__conteudo {
     display: flex;
     justify-content: flex-start;
     padding: 0 20em 0 0;
 }
-
 .navegacao__links a {
     color: var(--cinza-cor);
     text-decoration: none;
@@ -35,14 +33,9 @@
     margin: 0 2em 0 0;
     transition: 0.4s;
 }
-
 .navegacao__links a:hover {
     color: var(--vermelho-cor);
 }
-
-
-
-
 .navegacao__acoes a {
     text-decoration: none;
 }
@@ -54,7 +47,6 @@
 .acao__entrar:hover {
     color: var(--vermelho-cor);
 }
-
 .acao__cadastrar {
     color: var(--branco-cor);
     background-color: var(--vermelho-cor);
@@ -85,19 +77,16 @@
 
     transition: 1s;
 }
-
 .cabecalho__sessao {
     color: var(--vermelho-cor);
     font-weight: 600;
     padding-bottom: 1.5em;
 }
-
 .cabecalho__titulo {
     color: var(--preto-cor);
     font-size: 3em;
     margin-bottom: 0.5em;
 }
-
 .cabecalho__texto {
     color: var(--cinza-cor);
 }
@@ -111,23 +100,19 @@
     padding: 0 5em 6em;
     font-family: var(--fonte-principal);
 }
-
 .metricas__celula {
     padding: 0 1em;
 }
-
 .metricas h1 {
     color: var(--vermelho-cor);
     font-size: 60px;
     font-weight: 600;
     padding-bottom: 12px;
 }
-
 .metricas span {
     color: var(--preto-cor);
     font-weight: 500;
 }
-
 .metricas p {
     color: var(--cinza-cor);
     font-size: 400;
@@ -143,12 +128,10 @@
     transition: 2s;
 }
 
-
 .talentos {
     text-align: center;
     font-family: var(--fonte-principal);
 }
-
 .talentos__badge {
     font-size: 14px;
     font-weight: 500;
@@ -158,13 +141,11 @@
     border: 1px, solid, transparent;
     border-radius: 16px;
 }
-
 .talentos__titulo {
     font-size: 36px;
     font-weight: 600;
     padding: 16px 0 20px 0;
 }
-
 .talentos__texto {
     font-size: 20px;
     font-weight: 400;
@@ -178,17 +159,14 @@
     font-family: var(--fonte-principal);
     transition: 3s;
 }
-
 .trabalhos__topico {
     padding: 0 256px;
 }
-
 .trabalhos__titulo {
     font-weight: 500;
     font-size: 20px;
     padding: 40px 0 32px 0;
 }
-
 .trabalhos__container {
     border: 1px, solid, #EAECF0;
     border-radius: 16px;
@@ -196,20 +174,61 @@
     margin-bottom: 24px;
     
 }
-
 .trabalhos__container h6 {
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 56px;
 }
-
 .trabalhos__texto {
     display: flex;
     flex-direction: row;
     color: var(--cinza-cor);
     font-weight: 500;
-
 }
 .trabalhos__texto p {
     padding: 0 24px 0 0;
+}
+
+
+
+
+.depoimentos {
+    background-color: #8E24240D;
+    margin: 0 113px;
+    border: 1px, solid, #8E24240D;
+    border-radius: 16px;
+    text-align: center;
+    font-family: var(--fonte-principal);
+    padding: 64px;
+}
+.depoimentos__badge {
+    color: var(--vermelho-cor);
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.depoimentos__titulo {
+    padding-top: 16px;
+    color: var(--preto-cor);
+    font-size: 36px;
+}
+.depoimentos__perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 32px;
+}
+.depoimentos__perfil img {
+    width: 56px;
+}
+.perfil__nome {
+    padding-top: 16px;
+    font-weight: 500;
+
+}
+.perfil__descricao {
+    padding-top: 4px;
+    color: var(--cinza-cor);
+    font-size: 14px;
+
 }
